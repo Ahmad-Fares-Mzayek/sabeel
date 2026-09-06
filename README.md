@@ -10,7 +10,6 @@ The name comes from the Arabic **سبيل** — the public drinking fountains bu
 
 - Vite + React 18 + TypeScript
 - Tailwind CSS with a custom design system (Spectral / Inter / IBM Plex Sans Arabic; palette of paper, deep green, and brass)
-- React Router for the `/writing` stub route
 - No backend — deployable as a static build
 
 ## Getting started
@@ -48,10 +47,8 @@ src/
 ├── content/
 │   ├── index.ts               # All copy in one place
 │   └── images.ts              # Photography URLs + attribution
-├── hooks/
-│   └── useReveal.ts           # Fade + rise on scroll into view
-└── routes/
-    └── Writing.tsx            # /writing stub
+└── hooks/
+    └── useReveal.ts           # Fade + rise on scroll into view
 ```
 
 All copy lives in `src/content/index.ts` so it can be edited without touching component code.

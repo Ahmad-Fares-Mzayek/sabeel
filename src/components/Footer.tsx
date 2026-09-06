@@ -40,8 +40,7 @@ export default function Footer() {
           <div className="md:col-span-1" />
         </div>
 
-        <div className="mt-16 border-t border-lineDark pt-8 flex flex-wrap items-center justify-between gap-4">
-          <p className="text-[13px] text-paper/60">{footer.contact}</p>
+        <div className="mt-16 border-t border-lineDark pt-8 flex justify-end">
           <p className="text-[11px] uppercase tracking-eyebrow text-paper/40">
             © {new Date().getFullYear()} Sabeel
           </p>

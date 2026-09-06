@@ -258,7 +258,7 @@ export const join = {
     tag: 'You invest',
     title: 'If you back companies, see the ones coming out of Syria first.',
     body:
-      'You see the deal, the team, the terms, and decide one at a time. Fund the companies looking to shape the syrian tech future.',
+      'You see the deal, the team, the terms, and decide one at a time. Fund the companies looking to shape the Syrian tech future.',
     cta: { label: 'Get on the investor list', href: 'mailto:invest@sabeel.example?subject=Sabeel%20investor%20list' },
     fields: [
       { label: 'Name', type: 'text' },
@@ -273,7 +273,6 @@ export const join = {
 
 export const footer = {
   tagline: 'A venture studio in Syria.',
-  contact: '[ CONTACT DETAILS PLACEHOLDER ]',
   columns: [
     {
       heading: 'Sections',
