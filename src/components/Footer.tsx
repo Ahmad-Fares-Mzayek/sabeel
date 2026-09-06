@@ -40,7 +40,21 @@ export default function Footer() {
           <div className="md:col-span-1" />
         </div>
 
-        <div className="mt-16 border-t border-lineDark pt-8 flex justify-end">
+        <div className="mt-16 border-t border-lineDark pt-8 flex flex-wrap items-center justify-between gap-4">
+          <nav className="flex flex-wrap gap-6 text-[11px] uppercase tracking-eyebrow">
+            <Link
+              to="/privacy"
+              className="text-paper/60 hover:text-brass transition-colors"
+            >
+              Privacy
+            </Link>
+            <Link
+              to="/terms"
+              className="text-paper/60 hover:text-brass transition-colors"
+            >
+              Terms
+            </Link>
+          </nav>
           <p className="text-[11px] uppercase tracking-eyebrow text-paper/40">
             © {new Date().getFullYear()} Sabeel
           </p>
